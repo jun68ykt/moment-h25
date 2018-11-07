@@ -13,9 +13,9 @@ To deal with situations like this, I want to let Moment.js to be able to handle 
 
 # design
 
-- function `momentH25conf(startHour)`: It receives a one integer startHour which is >= 1 and < 12. The parameter startHour means
-the start hour of the day. In the preceding example of shops, the start hour is 6, and thus we should 
-do `moment25conf(6)` firstly before using the following features, `.hhmm` getter and `hhmm(string)` function.
+- function `momentH25conf(startHour)`: It receives a one integer `startHour` which is >= 1 and < 12. This `startHour` means, so to speak,
+the start hour of the day. In the preceding example of shops, the start hour is 6, and thus we should firstly
+do `moment25conf(6)` before using the following features, `.hhmm` getter and `hhmm(string)` function.
 
 After `moment25conf` is invoked, we can use following two features:
 
