@@ -9,7 +9,7 @@ one day.
 In some circumstances, 
 For example, suppose that some shops open from midday to 6 o'clock in the next morning,
 staffs who work in those may want to take up "2018/11/7 01:30" as **"2018/11/6 25:30"**.
-To deal with situations like this, I want to let Moment.js to be able to handle `'HH:mm'` strings whose hour parts `HH` are greater than 24.
+To deal with situations like this, I want to let Moment.js to be able to handle `'HH:mm'` strings whose hour parts `HH` are allowed to be greater than 24.
 
 # design
 
